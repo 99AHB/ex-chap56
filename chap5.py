@@ -59,6 +59,12 @@ for name in names:
     cap_name = name.capitalize()
     print(f"{cap_name}sy MC{cap_name}face")
 
+#chap 5-6
+names = ["duck", "gourd", "spitz"]
+for name in names:
+    cap_name = name.capitalize()
+    print("%sy MC%face" % (cap_name, cap_name))
+
 
 
 
