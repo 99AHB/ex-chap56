@@ -47,5 +47,26 @@ another {product} that, in our tests, is {procent}% less llikely to have {verbed
 #chap 5-5
 print(format(letter))
 
+#chap 5-7
+names = ["duck", "gourd", "spitz"]
+for name in names:
+    cap_name = name.capitalize()
+    print("{}sy MC{}face".format(cap_name, cap_name))
+
+#chap 5-8
+names = ["duck", "gourd", "spitz"]
+for name in names:
+    cap_name = name.capitalize()
+    print(f"{cap_name}sy MC{cap_name}face")
+
+
+
+
+
+
+
+
+
+
 
 
