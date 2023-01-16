@@ -23,4 +23,9 @@ print(f'A:{answers[1]}')
 print(f'Q:{questions[2]}')
 print(f'A:{answers[2]}')
 
+# chap5-3
+print("""My kitty cat likes %s
+My kitty cat likes %s,
+My kitty cat fell on his %s And now thinks he's a %s.""" % ('roast beef', 'ham', 'head', 'clam'))
+
 
